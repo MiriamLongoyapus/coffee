@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="pay.css">
+    
+    <title>Document</title>
+</head>
+<body>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Miriam Longoyapus">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="longoyapusmiriam@gmail.com">
+           
+          
+                <label for="state">Location
+                 
+              </label>
+                <input type="text" id="state" name="Location" placeholder="place" >
+                 <input type="text"><select name="" id="paym">
+                
+                  <option value="place">E-mpesa</option>
+                  <option value="OnDelivery">On Delivery</option>
+                 
+                </select>
+              </label> 
+  
+          </div>
+          </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shopping address Checkout
+        </label>
+        <br>
+        <br>
+        <button class="btn">order</button>
+        <!-- <a href="#" class="btn">order</a> -->
+        <!-- <input type="submit" value="order" class="btn"> -->
+      </form>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
