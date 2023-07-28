@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(44, 24, 1);
+}
+
+.home-about {
+    background-image: url(img/COffee.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+header {
+    background-color: #706a6a;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 80%;
+
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.home-about {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.about {
+    max-width: 400px;
+    font-size: 80%;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 240%;
+
+
+}
+
+p {
+    line-height: 1.6;
+    font-size: 240%;
+    margin-left: 3%;
+
+}
+

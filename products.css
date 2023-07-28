@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: #706a6a;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 80%;
+
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.About {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.coffee {
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.coffee img {
+    width: 100%;
+    height: auto;
+
+} 
+
+.img-container {
+ position: relative;
+
+}
+
+.coffee h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    margin: 0;
+}
+
+.coffee p {
+    margin-top: 10px;
+    color: white;
+}
+
+.coffee .price {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+.coffee .toggle-btn {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.img-container {
+ position: relative;
+
+}
+
+.img-container img {
+display: block;
+width: 100%;
+height: 50vh;
+
+}
+
+.price {
+position: absolute;
+bottom: 45px;
+text-align: center;
+left: 55px;
+font-size: 1rem;
+color: #fff;
+text-shadow: 1px 1px 1px #000;
+}
+
+.btn-container {
+position: absolute;
+bottom: 10px;
+right: 10px;
+}
+
+.btn {
+display: inline-block;
+margin-right: 25px;
+gap: 20rem;
+padding: 8px 16px;
+border: none;
+border-radius: 4px;
+font-size: 1rem;
+font-weight: bold;
+color: #fff;
+background-color:  #e67e22;
+text-decoration: none;
+}
+
+.order-btn:hover,
+.cart-btn:hover {
+background-color: #000;
+}
+.main{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+margin-top: 2%;
+margin-left: 10%;
+}
