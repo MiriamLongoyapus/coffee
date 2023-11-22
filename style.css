@@ -16,13 +16,13 @@
         }
 
         .head {
-            background-color: #706a6a;
             color: #fff;
             padding: 10px;
             display: flex;
             align-items: center;
             gap: 20%;
-            margin-bottom: 45%;
+            margin-bottom: 47%;
+            
             
         }
         
@@ -39,6 +39,7 @@
             padding: 0;
             display: flex;
             gap: 80%;
+
            
         
         }
@@ -46,7 +47,6 @@
         .nav li {
             margin-right: 20px;
             font-size: 300%;
-            /* margin-top: 60%; */
 
         }
         
@@ -69,6 +69,7 @@
     .text h1 {
         font-size: 36px;
         margin-bottom: 20px;
+        
     }
 
     .text p {
@@ -103,7 +104,6 @@
         width: 100%;
     }
 
-    /* Rest of the CSS code remains the same */
     .footer div {
         flex: 1;
         margin-right: 30px;
